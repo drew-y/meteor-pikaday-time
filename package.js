@@ -1,6 +1,6 @@
 Package.describe({
   name: 'drewy:pikaday-time',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'Simple DateTime Picker',
   // URL to the Git repository containing the source code for this package.
@@ -12,5 +12,5 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles(['pikaday.js', 'pikaday.css'], 'client');
+  api.addFiles(['Pikaday/pikaday.js', 'Pikaday/css/pikaday.css'], 'client');
 });
