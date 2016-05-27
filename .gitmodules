@@ -1,0 +1,3 @@
+[submodule "Pikaday"]
+	path = Pikaday
+	url = git@github.com:owenmead/Pikaday.git
